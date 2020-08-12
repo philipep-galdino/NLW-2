@@ -42,6 +42,7 @@ const TeacherItem: React.FC<TeacherItemProps> = ({ teacher }) => {
                         Preço/hora
                         <strong>R$ {teacher.cost}</strong>
                     </p>
+                    
                     <a 
                         target="_blank" 
                         onClick={createNewConnection} 
